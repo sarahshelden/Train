@@ -32,8 +32,8 @@ var frequency = 0;
     var trainFrequency = $("#frequency-input").val().trim();
     var trainTime = $("#start-input").val().trim();
         console.log(trainTime);
-    var trainStart = moment(trainTime, "HH:mm").format("X");
-        console.log(trainStart);
+    //var trainStart = moment(trainTime, "HH:mm").format("X");
+       // console.log(trainStart);
 
 
 
@@ -42,7 +42,7 @@ var newTrain = {
 
     destination: trainDestination,
     name: trainName,
-    start: trainStart,
+    //start: trainStart,
     frequency: trainFrequency
 };
 
